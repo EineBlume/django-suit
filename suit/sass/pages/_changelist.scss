@@ -5,7 +5,7 @@ $filter-col-width: 15rem;
   &.filtered {
     clear: both;
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap: inherit;
     #toolbar {
       flex: 10;
       flex-basis: 100%;
@@ -19,6 +19,9 @@ $filter-col-width: 15rem;
         display: none;
       }
     }
+  }
+  .changelist-form-container {
+    margin-right: 2rem;
   }
   #changelist-filter:not(:empty) + #changelist-form {
     margin-right: 2rem;

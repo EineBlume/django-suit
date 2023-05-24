@@ -2846,7 +2846,9 @@ body.dashboard .deletelink:before { content: ""; color: #E04F3C; }
 
 #changelist { display: block; position: relative; }
 
-#changelist.filtered { clear: both; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: wrap; flex-wrap: wrap; }
+#changelist .changelist-form-container { margin-right: 2rem; }
+
+#changelist.filtered { clear: both; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: inherit; flex-wrap: inherit; }
 
 #changelist.filtered #toolbar { -webkit-box-flex: 10; -ms-flex: 10; flex: 10; -ms-flex-preferred-size: 100%; flex-basis: 100%; }
 
