@@ -22,6 +22,7 @@ $filter-col-width: 15rem;
   }
   .changelist-form-container {
     margin-right: 2rem;
+    flex-grow: 1;
   }
   #changelist-filter:not(:empty) + #changelist-form {
     margin-right: 2rem;

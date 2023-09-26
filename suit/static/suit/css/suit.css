@@ -2846,7 +2846,7 @@ body.dashboard .deletelink:before { content: ""; color: #E04F3C; }
 
 #changelist { display: block; position: relative; }
 
-#changelist .changelist-form-container { margin-right: 2rem; }
+#changelist .changelist-form-container { margin-right: 2rem; flex-grow: 1; }
 
 #changelist.filtered { clear: both; display: -webkit-box; display: -ms-flexbox; display: flex; -ms-flex-wrap: inherit; flex-wrap: inherit; }
 
